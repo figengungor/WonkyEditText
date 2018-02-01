@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.firstNameEt:
                 firstNameEt.setError(null);
+                strFirstName = "";
                 if (null != s && s.length() > 0) {
                     strFirstName = s.toString();
                 }
@@ -98,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.lastNameEt:
                 lastNameEt.setError(null);
+                strLastName = "";
                 if (null != s && s.length() > 0) {
                     strLastName = s.toString();
                 }
@@ -105,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.emailEt:
                 emailEt.setError(null);
+                strEmail = "";
                 if (null != s && s.length() > 0) {
                     strEmail = s.toString();
                 }
